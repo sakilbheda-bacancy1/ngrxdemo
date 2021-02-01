@@ -1,0 +1,26 @@
+<!-- <h3>Ngrx-demo</h3> <br />
+
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <li ngbNavItem>
+    <a ngbNavLink>Posts</a>
+    <ng-template ngbNavContent>
+      <app-get-post></app-get-post>
+    </ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink>Users</a>
+    <ng-template ngbNavContent>
+      <app-get-user></app-get-user>
+    </ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink>Albums</a>
+    <ng-template ngbNavContent>
+      <app-get-album></app-get-album>
+    </ng-template>
+  </li>
+  
+</ul>
+<div [ngbNavOutlet]="nav"></div> -->
+<h3 (click)="home()">Home</h3> 
+<router-outlet></router-outlet>
